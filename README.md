@@ -1,44 +1,74 @@
-# vCard - Personal portfolio
+# VCard Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+This is a personal portfolio website for showcasing projects, skills, and experience. The website is built using HTML, CSS, and JavaScript.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## Table of Contents
 
-## Demo
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Features
 
-## Prerequisites
+- Responsive design
+- Sidebar with contact information and social links
+- Sections for About, Resume, Portfolio, Blog, and Contact
+- Testimonials with modal view
+- Filterable portfolio projects
+- Contact form with validation
 
-Before you begin, ensure you have met the following requirements:
+## Installation
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+1. Clone the repository:
 
-## Installing vCard
+   ```bash
+   git clone https://github.com/utkrashh/portfolio.git
+   ```
 
-To install **vCard**, follow these steps:
+2. Navigate to the project directory:
 
-Linux and macOS:
+   ```bash
+   cd portfolio
+   ```
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+3. Open `index.html` in your preferred web browser.
+
+## Usage
+
+- **About**: Provides an overview of your professional background and skills.
+- **Resume**: Displays your education and work experience.
+- **Portfolio**: Showcases your projects with filter options.
+- **Blog**: Lists your blog posts.
+- **Contact**: Contains a contact form and a map.
+
+## Project Structure
+
+```
+portfolio/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   └── js/
+│       └── script.js
+├── index.html
+└── README.md
 ```
 
-Windows:
+## Contributing
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+Contributions are welcome! Please follow these steps:
 
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
 ## License
 
-MIT
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
