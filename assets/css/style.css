@@ -292,6 +292,18 @@ article.active {
   z-index: -1;
 }
 
+.contact-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.contact-link {
+  color: var(--orange-yellow-crayola);
+  text-decoration: underline;
+}
+
 
 
 
