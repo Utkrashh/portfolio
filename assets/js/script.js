@@ -1,6 +1,6 @@
 'use strict';
 
-
+require('dotenv').config();
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
@@ -139,6 +139,10 @@ for (let i = 0; i < formInputs.length; i++) {
 // EmailJS form submission
 form.addEventListener("submit", function(event) {
   event.preventDefault();
+
+  const SERVICE_ID = process.env.SERVICE_ID;
+  const TEMPLATE_ID = process.env.TEMPLATE_ID;
+  const email_key_public = process.env.EMAIL_KEY_PUBLIC;
 
   emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this, email_key_public)
     .then(function() {
