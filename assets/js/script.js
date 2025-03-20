@@ -146,6 +146,7 @@ form.addEventListener("submit", function(event) {
       form.reset();
       formBtn.setAttribute("disabled", "");
     }, function(error) {
+      console.error('Failed to send message:', error);
       alert('Failed to send message. Please try again later.');
     });
 });
