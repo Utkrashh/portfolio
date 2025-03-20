@@ -136,20 +136,7 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
-// EmailJS form submission
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
 
-  emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this, email_key_public)
-    .then(function() {
-      alert('Message sent successfully!');
-      form.reset();
-      formBtn.setAttribute("disabled", "");
-    }, function(error) {
-      console.error('Failed to send message:', error);
-      alert('Failed to send message. Please try again later.');
-    });
-});
 
 
 
