@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is a personal portfolio website for showcasing projects, skills, and experience. The website is built using HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utkrashh/vcard-personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Utkrashh/vcard-personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/Utkrashh/vcard-personal-portfolio#readme"
+}
