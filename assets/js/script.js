@@ -1,7 +1,5 @@
 'use strict';
 
-require('dotenv').config();
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
